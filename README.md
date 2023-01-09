@@ -20,7 +20,7 @@
     - Instance type: t2.medium
     - Security Group (Open): 8080, 9100 and 22 to 0.0.0.0/0
     - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/djmomee01/cloudwiz-devops-projects.git/installation-files/jenkins-install.sh
+    - User data (Copy the following user data): https://github.com/djmomee01/cloudwiz-devops-projects/blob/17e48fd533df7fceac1353f246594035e9df550f/installation-files/jenkins-install.sh
     - Launch Instance
 
 3) SonarQube
@@ -28,7 +28,7 @@
     - Instance type: t2.medium
     - Security Group (Open): 9000, 9100 and 22 to 0.0.0.0/0
     - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/djmomee01/cloudwiz-devops-projects.git/installation-files/sonarqube-install.sh
+    - User data (Copy the following user data): https://github.com/djmomee01/cloudwiz-devops-projects/blob/17e48fd533df7fceac1353f246594035e9df550f/installation-files/sonarqube-install.sh
     - Launch Instance
 
 4) Nexus
@@ -36,7 +36,7 @@
     - Instance type: t2.medium
     - Security Group (Open): 8081, 9100 and 22 to 0.0.0.0/0
     - Key pair: Select or create a new keypair
-    - User data (Copy the following user data): https://github.com/djmomee01/cloudwiz-devops-projects.git/installation-files/nexus-install.sh
+    - User data (Copy the following user data): https://github.com/djmomee01/cloudwiz-devops-projects/blob/17e48fd533df7fceac1353f246594035e9df550f/installation-files/nexus-install.sh
     - Launch Instance
 
 5) EC2 (Dev/Stage/Prod)
@@ -66,7 +66,7 @@
 9) Configure Promitheus
     - Login/SSH to your Prometheus Server
     - Clone the following repository: https://github.com/djmomee01/cloudwiz-devops-projects.git
-    - Change directory to "eagles-batch-devops-projects"
+    - Change directory to "cloudwiz-devops-projects"
     - Swtitch to the "prometheus-and-grafana" git branch  
     - Run: ./install-prometheus.sh
     - Confirm the status shows "Active (running)"
@@ -75,7 +75,7 @@
 10) Configure Grafana
     - Login/SSH to your Grafana Server
     - Clone the following repository: https://github.com/djmomee01/cloudwiz-devops-projects.git
-    - Change directory to "eagles-batch-devops-projects"
+    - Change directory to "cloudwiz-devops-projects"
     - Swtitch to the "prometheus-and-grafana" git branch 
     - Run: ls or ll  (to confirm you have the branch files)
     - Run: ./install-grafana.sh
@@ -87,7 +87,7 @@
     - Perform the following operations on all of them
     - Install git by running: sudo yum install git -y 
     - Clone the following repository: https://github.com/djmomee01/cloudwiz-devops-projects.git
-    - Change directory to "eagles-batch-devops-projects"
+    - Change directory to "cloudwiz-devops-projects"
     - Swtitch to the "prometheus-and-grafana" git branch 
     - Run: ls or ll  (to confirm you have the branch files)
     - Run: ./install-node-exporter.sh
@@ -103,7 +103,7 @@
     - Perform the following operations on all of them
     - Install git by running: sudo yum install git -y    (The SonarQube server already has git)
     - Clone the following repository: https://github.com/djmomee01/cloudwiz-devops-projects.git
-    - Change directory to "eagles-batch-devops-projects"
+    - Change directory to "cloudwiz-devops-projects"
     - Swtitch to the "prometheus-and-grafana" git branch 
     - Run: ls or ll  (to confirm you have the branch files including "install-node-exporter.sh")
     - Run: ./install-node-exporter.sh
